@@ -1,1 +1,2 @@
-# 学习在vscode里使用git
+- [X] 学习在vscode里使用git
+- [X] 了解基本的html标签，完成MDN练习：标记信件
