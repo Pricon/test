@@ -1,0 +1,158 @@
+/* font */
+@font-face {
+  font-family: "myFont_1";
+  src: url("font/KaushanScript-Regular.otf");
+}
+
+@font-face {
+  font-family: "myFont_2";
+  src: url("font/REVONZA\ Regular.ttf");
+}
+
+
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+/* 设置全站页面字体大小为10px */
+html {
+  font-size: 10px;
+}
+
+/* 标题 */
+header {
+  font-size: 2em;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+/* 正文 */
+section h2 {
+  font-family: "myFont_2";
+}
+
+aside h2 {
+  font-family: "myFont_2";
+}
+
+section, aside {
+  font-size: 1.5em;
+}
+
+body {
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  word-spacing: 2px;
+}
+
+section h2 + p {
+  text-indent: 20px;
+}
+
+/* 链接 */
+a:link {
+  color: #a66;
+}
+
+a:visited {
+  color: rebeccapurple;
+}
+
+a:focus {
+  color: green;
+  text-decoration: none;
+  outline: none;
+}
+
+a:hover {
+  color: rebeccapurple;
+  text-decoration: none;
+}
+
+a:active {
+  outline: none;
+  background-color: #a66;
+  color: aliceblue;
+}
+
+section p a {
+  background: url("../diamond.png") no-repeat 100% 0;
+  background-size: 16px 16px;
+  padding-right: 19px;
+}
+
+/* 列表 */
+ul {
+  list-style-type: square;
+}
+
+/* 导航栏 */
+nav {
+  font-size: 1.5em;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  font-family: "myFont_2";
+}
+
+nav li {
+  border: 3px solid #a66;
+  width: 80%;
+  line-height: 2;
+  margin: 1em;
+  text-align: center;
+}
+nav a {
+  text-decoration: none; 
+  font-size: 1.5em;
+  padding: 10px;
+}
+
+/* 页脚 */
+footer {
+  font-size: 1em;
+  font-family: "myFont_1";
+}
