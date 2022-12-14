@@ -12,3 +12,8 @@
 
 + 创建一个社区大学的首页
 ![1670852102662](https://user-images.githubusercontent.com/45533929/207057943-530b017b-add6-4b3a-8530-1cf7444400c1.jpg)
+
+- [X] HTML+CSS练习：
++ 画出一个计算器：
+
+![1671006246113](https://user-images.githubusercontent.com/45533929/207543928-05d09040-eafd-42d5-be8a-f21285075cac.jpg)
