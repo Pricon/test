@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+.card {
+    width: 550px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.card p {
+    margin: 0;
+}
+
+.info {
+    width: calc(100% - 180px - 20px);
+    margin-left: 20px;
+}
+
+.info #title {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.info #detail {
+    color: #404040;
+    font-size: 14px;
+    margin: 5px auto;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.info #count {
+    color: #888;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.info .text_bt
+{
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.info .price{
+    display: flex;
+    line-height: 1;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.info #new_price {
+    color: rgb(250, 137, 25);
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+.info #old_price {
+    color: #888;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.info #remark {
+    font-size: 14px;
+    color: rgb(250, 137, 25);
+    font-weight: 400;
+}
+
+.info button {
+    height: 32px;
+    width: 110px;
+    outline: none;
+    border: none;
+    background-color: rgb(250, 137, 25);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
