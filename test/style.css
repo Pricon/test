@@ -1,0 +1,34 @@
+body {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    font: .9em/1.2 Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.box {
+    width: 500px;
+    padding: 0.5em;
+    background-color: rebeccapurple;
+    overflow: auto;
+}
+
+.float {
+    margin: 15px;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    background-color: goldenrod;
+    color: #fff;
+    padding: 1em;
+    float: right;
+  }
+
+
+
+
+
+  
