@@ -14,6 +14,12 @@
 ![1670852102662](https://user-images.githubusercontent.com/45533929/207057943-530b017b-add6-4b3a-8530-1cf7444400c1.jpg)
 
 - [X] HTML+CSS练习：
-+ 画出一个计算器：
++ 还原计算器：
 
 ![1671006246113](https://user-images.githubusercontent.com/45533929/207543928-05d09040-eafd-42d5-be8a-f21285075cac.jpg)
+
++ 还原卡片：
+
+![1671021506267(1)](https://user-images.githubusercontent.com/45533929/207597403-dee3c9ba-1879-495c-9481-33a346e0adc6.jpg)
+
+
